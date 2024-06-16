@@ -1,0 +1,466 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    margin: 17px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li a:hover {
+    color: #686666;
+    text-decoration: underline;
+}
+
+#logo {
+    font-size: 35px;
+    padding-top: 23px;
+    padding-right: 40px
+}
+
+#btn1 {
+    padding: 10px;
+    margin: 0px 19px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(28, 233, 28);
+    width: 8vw;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#btn1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#btn1:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: 900ms;
+    background-color: transparent;
+}
+
+#btn2 {
+    padding: 0px 13px;
+    margin: 21px 0px;
+    border-radius: 10px;
+    width: 10vw;
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+#btn2 a {
+    color: red;
+    text-decoration: none;
+}
+
+#btn2:hover {
+    color: red;
+    background-color: black;
+    border: 1px solid red;
+    transition: 900ms;
+}
+
+.account {
+    display: flex;
+    padding-left: 60px;
+}
+
+#user {
+    height: 20px;
+    margin: 34px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    height: 80vh;
+    width: 100%;
+}
+
+.words {
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+}
+
+#child-pic img {
+    height: 72vh;
+}
+
+h1 {
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 20px;
+    color: rgb(202, 202, 4);
+    font-family: 'Young Serif', serif;
+}
+
+h2 {
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Young Serif', serif;
+    color: rgb(234, 135, 35);
+}
+
+#lives {
+    color: rgb(241, 9, 9);
+}
+
+img {
+    width: 100%;
+    height: 80vh;
+}
+
+.para {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 10px;
+}
+
+.container2 {
+    display: flex;
+    height: 45vh;
+    padding-bottom: 25px;
+    width: 79%;
+    margin: auto;
+}
+
+#Bihar {
+    border-radius: 15px;
+    background-color: rgb(158, 69, 199);
+    margin: 10px 10px;
+    width: 25%;
+}
+
+#Bihar img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 13px 13px 0px 0px;
+}
+
+#Bihar h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#Bihar h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#Jharkand {
+    border-radius: 15px;
+    background-color: rgb(60, 190, 108);
+    margin: 10px 10px;
+    width: 25%;
+}
+
+#Jharkand img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 13px 13px 0px 0px;
+}
+
+#Jharkand h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#Jharkand h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#Uttar {
+    border-radius: 15px;
+    background-color: rgb(80, 109, 183);
+    margin: 10px 10px;
+    width: 25%;
+}
+
+#Uttar img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 13px 13px 0px 0px;
+}
+
+#Uttar h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#Uttar h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#Madhya {
+    border-radius: 15px;
+    background-color: rgb(226, 87, 185);
+    margin: 10px 10px;
+    width: 25%;
+}
+
+#Madhya img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 13px 13px 0px 0px;
+}
+
+#Madhya h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#Madhya h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#statistics {
+    background-color: black;
+    border-radius: 10px;
+    height: 95vh;
+    width: 98%;
+    margin-bottom: 15px;
+}
+
+.stat-header {
+    color: rgb(239, 85, 85);
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight: 300;
+}
+
+.head {
+    color: rgb(239, 85, 85);
+    text-decoration: underline;
+}
+
+.box1 {
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-size: 0.9rem;
+    border-radius: 15px;
+    padding: 6px 7px;
+    margin: 8px 4px;
+}
+
+p {
+    width: 60%;
+}
+
+i {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(9, 231, 231);
+}
+
+b {
+    color: rgb(158, 69, 199);
+}
+
+.jhar {
+    color: rgb(60, 190, 108);
+}
+
+.stats1-img {
+    width: 40%;
+    height: 38vh;
+    margin: auto;
+    padding: auto;
+}
+
+.box2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    padding-right: 30px;
+    padding-left: 11px;
+}
+
+.box3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    height: 15vh;
+    padding-left: 15px;
+    display: flex;
+}
+
+.stats2-img {
+    width: 30%;
+    height: 37vh;
+    margin: auto;
+}
+
+.uttar {
+    color: rgb(80, 109, 183);
+}
+
+.box4 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    height: 20vh;
+    padding-left: 20px;
+}
+
+.madhya {
+    color: rgb(227, 80, 183);
+}
+
+.box5 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.stats-note {
+    color: rgb(30, 238, 151);
+    font-weight: bold;
+    width: 45%;
+    margin-left: 20px;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+}
+
+h6 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.platform {
+    height: 1.8em;
+    cursor: pointer;
+    padding: 6px 25px;
+    margin: 5px 20px;
+}
+
+/* Responsiveness */
+
+@media (max-width : 1200px) {
+    .navbar{
+        width: 100%;
+    }
+    #logo {
+        font-size: 30px;
+        padding-top: 27px;
+        padding-right: 37px;
+    }
+
+    #btn1,
+    #btn2 {
+        margin: 24px 12px;
+        width: 13vw;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .para {
+        width: 100%;
+        font-size: 0.9rem;
+        text-align: center;
+        
+    }
+
+    .stats2-img {
+        width: 40%;
+        height: 40vh;
+    }
+
+    #statistics {
+        height: 100vh;
+        width: 95%;
+        margin: 15px;
+        padding: 35px;
+    }
+
+    .box4{
+        padding-top: 30px;
+    }
+
+}
+
+@media  (max-width : 900px)  {
+    #logo {
+        font-size: 20px;
+        padding-top: 34px;
+        padding-right: 37px;
+    }
+
+   #btn1 , #btn2 {
+        margin: 24px 12px;
+        width: 10vw;
+    }
+}
